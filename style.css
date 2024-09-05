@@ -1,0 +1,257 @@
+
+ ul{
+  margin: 0px;
+  padding: 15px;
+   overflow: hidden;
+   background-color: black;
+  border-radius: 10px;
+}
+ul li{
+  float: left;
+  list-style-type: none;
+}
+ul li a{
+  list-style-type: none;
+  margin: 7px 20px;
+  color: white;
+  padding: 10px 0px;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+}
+.rahi3 a{
+  display: block;
+}
+.rahi3{
+  background:white;
+  display: none;
+  position: absolute;
+ border-radius: 20px;
+}
+.rahi1:hover  .rahi3{
+  display: block;
+}
+.rahi3 a:hover{
+ background: black;
+ color: white;
+ padding: 10px;
+ border-radius: 20px;
+}
+ul li a:hover{
+ background: cyan;
+ color : black;
+ padding: 10px 15px;
+ border-radius: 30px;
+ box-shadow: 2px 2px 25px cyan;
+}
+.schoolget{
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  border-radius: 20px;
+}
+.part1{
+ background-color: #FFBC41;
+ width: 100%;
+ border-radius: 10px;
+}
+h1{
+ text-align: center;
+ padding: 0px 0px 20px 0px;
+ text-transform: uppercase;
+ font-size: 10px;
+}
+body{
+ font-family: "Roboto", sans-serif;
+ background-color: lightcyan;
+ position: grid;
+ grid-auto-columns: swap;
+}
+h2{
+ text-transform: uppercase;
+ font-size: 20px;
+ text-align: center;
+ padding: 20px 0px 0px 0px ;
+}
+.part4{
+ background-color:#f3345a;
+ margin: 0px;
+ padding: 0px;
+ border-radius: 10px;
+   animation-name: rahi2;
+ animation-name: rahi2;
+ animation-duration: 1s;
+ animation-timeline: view();
+ animation-range:entry 0;
+}
+h3{
+ font-size: 20px;
+ text-transform: uppercase;
+ margin: 0px 0px 0pxp30px;
+ padding: 10px;
+}
+@keyframes rahi{
+ 0%{
+  width:0px;
+ }
+ 50%{
+  width:500px;
+ }
+ 100%{
+  width:0px;
+ }
+}
+.line{
+ height: 5px;
+ width:500px;
+ background-color: black;
+ animation-name: rahi;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+}
+p{
+ margin: 10px 0px 0px 20px;
+ padding: 10px;
+ font-size: 14px;
+}
+.part2{
+ background: #f18f22;
+ border-radius: 10px;
+}
+.line2{
+ padding: 20px 0px 0px 0px;
+}
+.all-img{
+ border:5px black solid;
+ border-radius: 20px;
+ box-shadow:1px 2px 20px;
+ animation-name: rahi2;
+ animation-duration: 1s;
+}
+.img1{
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  width:50%;
+  border-radius: 20px;
+ margin: 20px 0px 0px 30px;
+}
+.img2{
+ float: right ;
+ margin: 30px;
+}
+.img3{
+ margin: 0px 0px 20px 30px;
+}
+.part3{
+ background: #e55c16;
+ border-radius: 10px;
+   animation-name: rahi2;
+ animation-name: rahi2;
+ animation-duration: 1s;
+ animation-timeline: view();
+ animation-range:entry 0;
+}
+.mul{
+ width: 200px;
+}
+
+
+.news1{
+ display: inline-block;
+ width: 430px;
+}
+.border-size{
+ border:5px black solid;
+ margin:30px;
+ flex-direction: column-reverse;
+}
+h5{
+ color: crimson;
+ text-align: center;
+ font-size: 15px;
+}
+.icon{
+ text-align: center;
+ font-size: 25px;
+}
+.fa-facebook{
+ color:blue;
+}
+.p{
+ 
+}
+.part6{
+ width:100%;
+ height: 1230px;
+ background-color: #e34033;
+ border-radius: 10px;
+ position: relative;
+ margin: 10px 0px;
+  animation-name: rahi2;
+ animation-duration: 1s;
+ animation-timeline: view();
+ animation-range:entry 0;
+}
+.information1{
+ border: 1px black solid;
+ margin:70px 50px;
+ position: absolute;
+ width:400px;
+ background: white;
+ height: 510px;
+ border-radius: 40px;
+ box-shadow: 3px 4px 20px,-1px -1px 5px;
+}
+.colam1{
+ display: inline-block;
+}
+.information2{
+ border: 1px black solid;
+ margin:70px 510px;
+ position: absolute;
+ width:400px;
+ background: white;
+ height: 510px;
+ border-radius: 40px;
+ box-shadow: 3px 4px 20px,-1px -1px 5px;
+}
+.information3{
+ border: 1px black solid;
+ margin:595px 250px;
+ position: absolute;
+ width:450px;
+ background: white;
+ height: 510px;
+ border-radius: 40px;
+ box-shadow: 3px 4px 20px,-1px -1px 5px;
+}
+.co1{
+ text-align: center;
+ font-weight: bold;
+}
+.co2{
+ font-size: 18px;
+}
+.taitel9{
+ text-align: center;
+ color: white;
+ font-size: 25px;
+ display: block;
+ position: absolute;
+ margin: 20px 0px 50px 410px
+}
+@keyframes rahi2{
+ from{
+  opacity: 0;
+  scale: 0.5;
+ }
+ to{
+  opacity: 1;
+  scale: 1;
+ }
+}
+.email-adr{
+ text-decoration: none;
+}
