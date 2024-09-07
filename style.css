@@ -165,7 +165,8 @@ p{
 .border-size{
  border:5px black solid;
  margin:30px;
- flex-direction: column-reverse;
+ position: grid;
+ grid-template-columns: auto;
 }
 h5{
  color: crimson;
@@ -203,6 +204,7 @@ h5{
  height: 510px;
  border-radius: 40px;
  box-shadow: 3px 4px 20px,-1px -1px 5px;
+ overflow: scroll;
 }
 .colam1{
  display: inline-block;
@@ -216,6 +218,7 @@ h5{
  height: 510px;
  border-radius: 40px;
  box-shadow: 3px 4px 20px,-1px -1px 5px;
+ overflow: scroll;
 }
 .information3{
  border: 1px black solid;
@@ -226,6 +229,7 @@ h5{
  height: 510px;
  border-radius: 40px;
  box-shadow: 3px 4px 20px,-1px -1px 5px;
+ overflow: scroll;
 }
 .co1{
  text-align: center;
@@ -254,4 +258,10 @@ h5{
 }
 .email-adr{
  text-decoration: none;
+}
+html{
+ scroll-behavior: smooth;
+}
+.abc{
+ font-size: 20px;
 }
